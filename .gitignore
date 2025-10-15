@@ -1,0 +1,37 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+
+# PyTorch/ML
+*.pth
+*.pt
+*.onnx
+data/
+checkpoints/
+runs/
+
+# C++
+*.o
+*.out
+*.exe
+build/
+cmake-build-*/
+
+# Datasets (CIFAR-10 will download here)
+data/cifar-10-batches-py/
+data/cifar-10-python.tar.gz
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editors
+.vscode/
+.idea/
+*.swp
+
+# Logs
+*.log
